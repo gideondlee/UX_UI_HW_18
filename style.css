@@ -38,7 +38,7 @@
     height:75px;
     width: 75px;
     padding: 10px;
-    
+    color: white;
 }
 
 
@@ -135,7 +135,7 @@
 }
 
 #about-pic{
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 .about-head{
@@ -149,7 +149,7 @@
     color: #23395d;
 }
 
-@media(max-width:600px){
+@media(max-width:900px){
     .media-body{
         font-size: 12pt;
     }
@@ -172,6 +172,7 @@
 
 
     #about-pic{
+        padding-left: 72.5px;
         width: 100%;
         height: auto;
     }
